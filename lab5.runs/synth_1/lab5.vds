@@ -1,0 +1,851 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Apr 26 23:11:14 2019
+# Process ID: 10412
+# Current directory: C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.runs/synth_1
+# Command line: vivado.exe -log lab5.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab5.tcl
+# Log file: C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.runs/synth_1/lab5.vds
+# Journal file: C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source lab5.tcl -notrace
+Command: synth_design -top lab5 -part xc7z010clg400-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14804 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 364.594 ; gain = 101.707
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'lab5' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:3]
+INFO: [Synth 8-6157] synthesizing module 'instruction_memory' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'instruction_memory' (1#1) [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:71]
+INFO: [Synth 8-6157] synthesizing module 'ifid' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:107]
+INFO: [Synth 8-6155] done synthesizing module 'ifid' (2#1) [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:107]
+INFO: [Synth 8-6157] synthesizing module 'control_unit' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:146]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:156]
+INFO: [Synth 8-6155] done synthesizing module 'control_unit' (3#1) [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:146]
+INFO: [Synth 8-6157] synthesizing module 'multiplexer_short' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:126]
+INFO: [Synth 8-6155] done synthesizing module 'multiplexer_short' (4#1) [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:126]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:176]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (5#1) [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:176]
+INFO: [Synth 8-6157] synthesizing module 'sign_extension' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:138]
+INFO: [Synth 8-6155] done synthesizing module 'sign_extension' (6#1) [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:138]
+INFO: [Synth 8-6157] synthesizing module 'idexe' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:208]
+INFO: [Synth 8-6155] done synthesizing module 'idexe' (7#1) [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:208]
+INFO: [Synth 8-6157] synthesizing module 'multiplexer_long' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:241]
+INFO: [Synth 8-6155] done synthesizing module 'multiplexer_long' (8#1) [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:241]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:253]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:259]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (9#1) [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:253]
+INFO: [Synth 8-6157] synthesizing module 'exemem' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:271]
+INFO: [Synth 8-6155] done synthesizing module 'exemem' (10#1) [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:271]
+INFO: [Synth 8-6157] synthesizing module 'data_memory' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:295]
+INFO: [Synth 8-6155] done synthesizing module 'data_memory' (11#1) [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:295]
+INFO: [Synth 8-6157] synthesizing module 'memwb' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:323]
+INFO: [Synth 8-6155] done synthesizing module 'memwb' (12#1) [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:323]
+INFO: [Synth 8-6157] synthesizing module 'wmux' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:344]
+INFO: [Synth 8-6155] done synthesizing module 'wmux' (13#1) [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:344]
+INFO: [Synth 8-6155] done synthesizing module 'lab5' (14#1) [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:3]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[31]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[30]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[29]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[28]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[27]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[26]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[25]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[24]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[23]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[22]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[21]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[20]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[19]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[18]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[17]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[16]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[15]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[14]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[13]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[12]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[11]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[10]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[9]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[8]
+WARNING: [Synth 8-3331] design regfile has unconnected port clk
+WARNING: [Synth 8-3331] design control_unit has unconnected port func[5]
+WARNING: [Synth 8-3331] design control_unit has unconnected port func[4]
+WARNING: [Synth 8-3331] design control_unit has unconnected port func[3]
+WARNING: [Synth 8-3331] design control_unit has unconnected port func[2]
+WARNING: [Synth 8-3331] design control_unit has unconnected port func[1]
+WARNING: [Synth 8-3331] design control_unit has unconnected port func[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 894.066 ; gain = 631.180
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 894.066 ; gain = 631.180
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 894.066 ; gain = 631.180
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-3
+INFO: [Synth 8-5546] ROM "memory" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "wreg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "r" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'wreg_reg' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:158]
+WARNING: [Synth 8-327] inferring latch for variable 'm2reg_reg' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:159]
+WARNING: [Synth 8-327] inferring latch for variable 'wmem_reg' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:160]
+WARNING: [Synth 8-327] inferring latch for variable 'aluc_reg' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:161]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[31]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[30]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[29]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[28]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[27]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[26]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[25]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[24]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[23]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[22]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[21]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[20]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[19]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[18]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[17]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[16]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[15]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[14]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[13]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[12]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[11]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[10]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[9]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[8]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[7]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[6]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[5]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[4]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[3]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[2]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[1]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'registers_reg[0]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'r_reg' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:260]
+WARNING: [Synth 8-327] inferring latch for variable 'do_reg' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[255]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[254]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[253]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[252]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[251]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[250]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[249]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[248]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[247]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[246]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[245]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[244]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[243]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[242]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[241]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[240]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[239]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[238]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[237]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[236]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[235]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[234]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[233]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[232]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[231]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[230]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[229]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[228]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[227]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[226]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[225]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[224]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[223]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[222]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[221]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[220]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[219]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[218]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[217]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[216]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[215]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[214]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[213]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[212]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[211]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[210]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[209]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[208]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[207]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[206]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[205]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[204]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[203]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[202]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[201]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[200]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[199]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[198]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[197]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[196]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[195]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+WARNING: [Synth 8-327] inferring latch for variable 'datamem_reg[194]' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:315]
+INFO: [Common 17-14] Message 'Synth 8-327' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:01 ; elapsed = 00:01:06 . Memory (MB): peak = 1288.820 ; gain = 1025.934
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+------------------+------------+----------+
+|      |RTL Partition     |Replication |Instances |
++------+------------------+------------+----------+
+|1     |data_memory__GB0  |           1|     30775|
+|2     |data_memory__GB1  |           1|     12304|
+|3     |data_memory__GB2  |           1|     10260|
+|4     |data_memory__GB3  |           1|     14369|
+|5     |data_memory__GB4  |           1|     16425|
+|6     |data_memory__GB5  |           1|     20514|
+|7     |data_memory__GB6  |           1|     26669|
+|8     |data_memory__GB7  |           1|     32828|
+|9     |data_memory__GB8  |           1|     30795|
+|10    |data_memory__GB9  |           1|     10255|
+|11    |data_memory__GB10 |           1|     32834|
+|12    |data_memory__GB11 |           1|      8212|
+|13    |data_memory__GB12 |           1|     10262|
+|14    |data_memory__GB13 |           1|     30781|
+|15    |data_memory__GB14 |           1|     10260|
+|16    |data_memory__GB15 |           1|     10264|
+|17    |data_memory__GB16 |           1|     14362|
+|18    |data_memory__GB17 |           1|     34309|
+|19    |data_memory__GB18 |           1|     10264|
+|20    |data_memory__GB19 |           1|     12308|
+|21    |data_memory__GB20 |           1|     16414|
+|22    |data_memory__GB21 |           1|     18477|
+|23    |data_memory__GB22 |           1|     33803|
+|24    |data_memory__GB23 |           1|      8177|
+|25    |data_memory__GB24 |           1|     10256|
+|26    |data_memory__GB25 |           1|     14359|
+|27    |data_memory__GB26 |           1|     18467|
+|28    |data_memory__GB27 |           1|     22593|
+|29    |data_memory__GB28 |           1|     26675|
+|30    |lab5__GC0         |           1|      4801|
++------+------------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 3     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 7     
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 6     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   8 Input     32 Bit        Muxes := 1     
+	  21 Input      8 Bit        Muxes := 4     
+	   2 Input      5 Bit        Muxes := 1     
+	 256 Input      1 Bit        Muxes := 256   
+	   2 Input      1 Bit        Muxes := 40    
+	   3 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module data_memory 
+Detailed RTL Component Info : 
++---Muxes : 
+	 256 Input      1 Bit        Muxes := 256   
+	   2 Input      1 Bit        Muxes := 8     
+Module instruction_memory 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 3     
++---Registers : 
+	                8 Bit    Registers := 4     
++---Muxes : 
+	  21 Input      8 Bit        Muxes := 4     
+Module ifid 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 3     
+Module control_unit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   3 Input      1 Bit        Muxes := 1     
+Module multiplexer_short 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module regfile 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 32    
+Module idexe 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
+Module multiplexer_long 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	   8 Input     32 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 1     
+Module exemem 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
+Module memwb 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
+Module wmux 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5580] Multithreading enabled for synth_design using a maximum of 2 processes.
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'idexe1/ealuimm_reg' into 'idexe1/em2reg_reg' [C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.srcs/sources_1/new/lab5.v:233]
+INFO: [Synth 8-3886] merging instance 'i_0/ctrl/aluc_reg[3]' (LD) to 'i_0/ctrl/aluc_reg[2]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/imm_reg[11]' (FD) to 'i_0/ifid1/rd_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/imm_reg[12]' (FD) to 'i_0/ifid1/rd_reg[1]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/imm_reg[13]' (FD) to 'i_0/ifid1/rd_reg[2]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/imm_reg[14]' (FD) to 'i_0/ifid1/rd_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/ctrl/aluc_reg[2]' (LD) to 'i_0/ctrl/aluc_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/imm_reg[15]' (FD) to 'i_0/ifid1/rd_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/ctrl/aluc_reg[1]' (LD) to 'i_0/ctrl/wreg_reg'
+INFO: [Synth 8-3886] merging instance 'i_0/ctrl/aluc_reg[0]' (LD) to 'i_0/ctrl/wmem_reg'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\ctrl/wreg_reg )
+INFO: [Synth 8-3886] merging instance 'i_0/idexe1/ealuc_reg[3]' (FD) to 'i_0/idexe1/ealuc_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/idexe1/ealuc_reg[2]' (FD) to 'i_0/idexe1/ealuc_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/idexe1/ealuc_reg[1]' (FD) to 'i_0/idexe1/ewreg_reg'
+INFO: [Synth 8-3886] merging instance 'i_0/idexe1/ealuc_reg[0]' (FD) to 'i_0/idexe1/ewmem_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ctrl/wmem_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_4/\pc_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_4/\pc_reg[0] )
+INFO: [Synth 8-3886] merging instance 'i_0/instmem/do_reg[29]' (FD) to 'i_0/instmem/do_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/instmem/do_reg[30]' (FD) to 'i_0/instmem/do_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/instmem/do_reg[28]' (FD) to 'i_0/instmem/do_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/instmem/do_reg[27]' (FD) to 'i_0/instmem/do_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/instmem/do_reg[0]' (FD) to 'i_0/instmem/do_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/instmem/do_reg[1]' (FD) to 'i_0/instmem/do_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/instmem/do_reg[2]' (FD) to 'i_0/instmem/do_reg[16]'
+INFO: [Synth 8-3886] merging instance 'i_0/instmem/do_reg[4]' (FD) to 'i_0/instmem/do_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/instmem/do_reg[6]' (FD) to 'i_0/instmem/do_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/instmem/do_reg[7]' (FD) to 'i_0/instmem/do_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/instmem/do_reg[8]' (FD) to 'i_0/instmem/do_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/instmem/do_reg[9]' (FD) to 'i_0/instmem/do_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/instmem/do_reg[10]' (FD) to 'i_0/instmem/do_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/instmem/do_reg[11]' (FD) to 'i_0/instmem/do_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/instmem/do_reg[14]' (FD) to 'i_0/instmem/do_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/instmem/do_reg[15]' (FD) to 'i_0/instmem/do_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/op_reg[3]' (FD) to 'i_0/ifid1/rd_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/op_reg[4]' (FD) to 'i_0/ifid1/rd_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/op_reg[2]' (FD) to 'i_0/ifid1/rd_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/op_reg[1]' (FD) to 'i_0/ifid1/op_reg[5]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/imm_reg[0]' (FD) to 'i_0/ifid1/rd_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/imm_reg[1]' (FD) to 'i_0/ifid1/rd_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/imm_reg[2]' (FD) to 'i_0/ifid1/rt_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/imm_reg[4]' (FD) to 'i_0/ifid1/rd_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/imm_reg[6]' (FD) to 'i_0/ifid1/rd_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/imm_reg[7]' (FD) to 'i_0/ifid1/rd_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/imm_reg[8]' (FD) to 'i_0/ifid1/rd_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/imm_reg[9]' (FD) to 'i_0/ifid1/rd_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/imm_reg[10]' (FD) to 'i_0/ifid1/rd_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/rd_reg[0]' (FD) to 'i_0/ifid1/rd_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/rd_reg[3]' (FD) to 'i_0/ifid1/rd_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/rd_reg[4]' (FD) to 'i_0/ifid1/rs_reg[2]'
+INFO: [Synth 8-3886] merging instance 'i_0/idexe1/eextend_reg[0]' (FD) to 'i_0/idexe1/eextend_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/idexe1/eextend_reg[1]' (FD) to 'i_0/idexe1/eextend_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/idexe1/eextend_reg[4]' (FD) to 'i_0/idexe1/eextend_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/idexe1/eextend_reg[6]' (FD) to 'i_0/idexe1/eextend_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/idexe1/eextend_reg[7]' (FD) to 'i_0/idexe1/eextend_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/idexe1/eextend_reg[8]' (FD) to 'i_0/idexe1/eextend_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/idexe1/eextend_reg[9]' (FD) to 'i_0/idexe1/eextend_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/idexe1/eextend_reg[10]' (FD) to 'i_0/idexe1/eextend_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/idexe1/eextend_reg[11]' (FD) to 'i_0/idexe1/eextend_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/idexe1/eextend_reg[14]' (FD) to 'i_0/idexe1/eextend_reg[15]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\idexe1/ewreg_reg )
+INFO: [Synth 8-3886] merging instance 'i_0/idexe1/ewmem_reg' (FD) to 'i_0/instmem/do_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/exemem1/mwreg_reg' (FD) to 'i_0/idexe1/ewreg_reg'
+INFO: [Synth 8-3886] merging instance 'i_0/instmem/do_reg[23]' (FD) to 'i_0/instmem/do_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/instmem/do_reg[24]' (FD) to 'i_0/instmem/do_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/instmem/do_reg[25]' (FD) to 'i_0/instmem/do_reg[20]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\instmem/do_reg[20] )
+INFO: [Synth 8-3886] merging instance 'i_0/exemem1/mwmem_reg' (FD) to 'i_0/ifid1/rs_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/rs_reg[2]' (FD) to 'i_0/ifid1/rs_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/rs_reg[3]' (FD) to 'i_0/ifid1/rs_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/rs_reg[4]' (FD) to 'i_0/instmem/do_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/ifid1/rt_reg[4]' (FD) to 'i_0/instmem/do_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/idexe1/eextend_reg[15]' (FD) to 'i_0/idexe1/ethree_reg[4]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\idexe1/ewreg_reg )
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wwreg_reg' (FD) to 'i_0/idexe1/ewreg_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\instmem/do_reg[20] )
+INFO: [Synth 8-3886] merging instance 'i_0/instmem/do_reg[20]' (FD) to 'i_0/idexe1/ethree_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\idexe1/ethree_reg[4] )
+INFO: [Synth 8-3886] merging instance 'i_0/exemem1/mtwo_reg[4]' (FD) to 'i_0/idexe1/ethree_reg[4]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\idexe1/ewreg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\idexe1/ethree_reg[4] )
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wone_reg[4]' (FD) to 'i_0/idexe1/ethree_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\idexe1/ethree_reg[4] )
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wdo_reg[8]' (FD) to 'i_0/memwb1/wdo_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wdo_reg[9]' (FD) to 'i_0/memwb1/wdo_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wdo_reg[10]' (FD) to 'i_0/memwb1/wdo_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wdo_reg[11]' (FD) to 'i_0/memwb1/wdo_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wdo_reg[12]' (FD) to 'i_0/memwb1/wdo_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wdo_reg[13]' (FD) to 'i_0/memwb1/wdo_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wdo_reg[14]' (FD) to 'i_0/memwb1/wdo_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wdo_reg[15]' (FD) to 'i_0/memwb1/wdo_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wdo_reg[16]' (FD) to 'i_0/memwb1/wdo_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wdo_reg[17]' (FD) to 'i_0/memwb1/wdo_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wdo_reg[18]' (FD) to 'i_0/memwb1/wdo_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wdo_reg[19]' (FD) to 'i_0/memwb1/wdo_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wdo_reg[20]' (FD) to 'i_0/memwb1/wdo_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wdo_reg[21]' (FD) to 'i_0/memwb1/wdo_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wdo_reg[22]' (FD) to 'i_0/memwb1/wdo_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wdo_reg[23]' (FD) to 'i_0/memwb1/wdo_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wdo_reg[24]' (FD) to 'i_0/memwb1/wdo_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wdo_reg[25]' (FD) to 'i_0/memwb1/wdo_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wdo_reg[26]' (FD) to 'i_0/memwb1/wdo_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wdo_reg[27]' (FD) to 'i_0/memwb1/wdo_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wdo_reg[28]' (FD) to 'i_0/memwb1/wdo_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wdo_reg[29]' (FD) to 'i_0/memwb1/wdo_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/memwb1/wdo_reg[30]' (FD) to 'i_0/memwb1/wdo_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\memwb1/wdo_reg[31] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:15 ; elapsed = 00:02:37 . Memory (MB): peak = 1288.820 ; gain = 1025.934
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+------------------+------------+----------+
+|      |RTL Partition     |Replication |Instances |
++------+------------------+------------+----------+
+|1     |data_memory__GB0  |           1|      3234|
+|2     |data_memory__GB1  |           1|       860|
+|3     |data_memory__GB2  |           1|      2475|
+|4     |data_memory__GB3  |           1|      2668|
+|5     |data_memory__GB4  |           1|      2720|
+|6     |data_memory__GB5  |           1|      2878|
+|7     |data_memory__GB6  |           1|      3082|
+|8     |data_memory__GB7  |           1|      3362|
+|9     |data_memory__GB8  |           1|      3228|
+|10    |data_memory__GB9  |           1|      2470|
+|11    |data_memory__GB10 |           1|      3327|
+|12    |data_memory__GB11 |           1|      2335|
+|13    |data_memory__GB12 |           1|      2410|
+|14    |data_memory__GB13 |           1|      3298|
+|15    |data_memory__GB14 |           1|      2464|
+|16    |data_memory__GB15 |           1|      2476|
+|17    |data_memory__GB16 |           1|      2643|
+|18    |data_memory__GB17 |           1|      3696|
+|19    |data_memory__GB18 |           1|      2421|
+|20    |data_memory__GB19 |           1|      2481|
+|21    |data_memory__GB20 |           1|      2735|
+|22    |data_memory__GB21 |           1|      2764|
+|23    |data_memory__GB22 |           1|      3979|
+|24    |data_memory__GB23 |           1|      2325|
+|25    |data_memory__GB24 |           1|      2483|
+|26    |data_memory__GB25 |           1|      2619|
+|27    |data_memory__GB26 |           1|      2775|
+|28    |data_memory__GB27 |           1|      2919|
+|29    |data_memory__GB28 |           1|      3079|
+|30    |lab5__GC0         |           1|      1524|
++------+------------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-264] enable of latch \datamem_reg[2][0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[2][0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[2][1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[2][1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[2][2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[2][2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[2][3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[2][3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[2][4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[2][4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[2][5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[2][5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[2][6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[2][6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[2][7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[2][7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[3][0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[3][0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[3][1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[3][1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[3][2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[3][2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[3][3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[3][3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[3][4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[3][4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[3][5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[3][5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[3][6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[3][6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[3][7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[3][7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[4][0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[4][0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[4][1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[4][1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[4][2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[4][2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[4][3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[4][3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[4][4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[4][4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[4][5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[4][5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[4][6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[4][6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[4][7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[4][7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[75][0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[75][0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[75][1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[75][1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[75][2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[75][2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[75][3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[75][3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[75][4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[75][4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[75][5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[75][5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[75][6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[75][6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[75][7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[75][7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[115][0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[115][0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[115][1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[115][1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[115][2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[115][2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[115][3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[115][3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[115][4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[115][4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[115][5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[115][5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[115][6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[115][6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[115][7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[115][7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[118][0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[118][0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[118][1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[118][1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[118][2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[118][2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[118][3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[118][3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[118][4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[118][4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[118][5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[118][5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[118][6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[118][6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[118][7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[118][7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[121][0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[121][0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[121][1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \datamem_reg[121][1]  is always disabled
+INFO: [Common 17-14] Message 'Synth 8-264' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:17 ; elapsed = 00:02:39 . Memory (MB): peak = 1288.820 ; gain = 1025.934
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+------------------+------------+----------+
+|      |RTL Partition     |Replication |Instances |
++------+------------------+------------+----------+
+|1     |data_memory__GB0  |           1|      3234|
+|2     |data_memory__GB2  |           1|      2475|
+|3     |data_memory__GB3  |           1|      2668|
+|4     |data_memory__GB4  |           1|      2712|
+|5     |data_memory__GB5  |           1|      2878|
+|6     |data_memory__GB6  |           1|      3082|
+|7     |data_memory__GB7  |           1|      3362|
+|8     |data_memory__GB8  |           1|      3228|
+|9     |data_memory__GB9  |           1|      2470|
+|10    |data_memory__GB10 |           1|      3327|
+|11    |data_memory__GB11 |           1|      2335|
+|12    |data_memory__GB12 |           1|      2410|
+|13    |data_memory__GB13 |           1|      3298|
+|14    |data_memory__GB14 |           1|      2464|
+|15    |data_memory__GB15 |           1|      2476|
+|16    |data_memory__GB16 |           1|      2643|
+|17    |data_memory__GB17 |           1|      3256|
+|18    |data_memory__GB18 |           1|      2421|
+|19    |data_memory__GB19 |           1|      2481|
+|20    |data_memory__GB20 |           1|      2735|
+|21    |data_memory__GB21 |           1|      2764|
+|22    |data_memory__GB22 |           1|      3372|
+|23    |data_memory__GB23 |           1|      2325|
+|24    |data_memory__GB24 |           1|      2483|
+|25    |data_memory__GB25 |           1|      2619|
+|26    |data_memory__GB26 |           1|      2775|
+|27    |data_memory__GB27 |           1|      2887|
+|28    |data_memory__GB28 |           1|      3079|
+|29    |lab5__GC0         |           1|      1492|
++------+------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'instmem/do_reg[5]' (FD) to 'instmem/do_reg[13]'
+INFO: [Synth 8-3886] merging instance 'ifid1/imm_reg[5]' (FD) to 'ifid1/rd_reg[2]'
+INFO: [Synth 8-3886] merging instance 'idexe1/eextend_reg[5]' (FD) to 'idexe1/eextend_reg[13]'
+INFO: [Synth 8-3886] merging instance 'instmem/do_reg[12]' (FD) to 'instmem/do_reg[19]'
+INFO: [Synth 8-3886] merging instance 'instmem/do_reg[31]' (FD) to 'instmem/do_reg[21]'
+INFO: [Synth 8-3886] merging instance 'ifid1/rd_reg[1]' (FD) to 'ifid1/rt_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ifid1/op_reg[5]' (FD) to 'ifid1/rs_reg[0]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:19 ; elapsed = 00:02:42 . Memory (MB): peak = 1288.820 ; gain = 1025.934
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:20 ; elapsed = 00:02:43 . Memory (MB): peak = 1288.820 ; gain = 1025.934
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:20 ; elapsed = 00:02:43 . Memory (MB): peak = 1288.820 ; gain = 1025.934
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:20 ; elapsed = 00:02:43 . Memory (MB): peak = 1288.820 ; gain = 1025.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:20 ; elapsed = 00:02:43 . Memory (MB): peak = 1288.820 ; gain = 1025.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:20 ; elapsed = 00:02:43 . Memory (MB): peak = 1288.820 ; gain = 1025.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:20 ; elapsed = 00:02:43 . Memory (MB): peak = 1288.820 ; gain = 1025.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+-----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name              | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+-----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|lab5        | idexe1/eextend_reg[3] | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|lab5        | memwb1/wone_reg[3]    | 3      | 4     | NO           | NO                 | YES               | 4      | 0       | 
++------------+-----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     8|
+|2     |CARRY4 |     9|
+|3     |LUT1   |     6|
+|4     |LUT2   |    32|
+|5     |LUT3   |    42|
+|6     |LUT4   |    24|
+|7     |LUT6   |   165|
+|8     |MUXF7  |    64|
+|9     |MUXF8  |    32|
+|10    |SRL16E |     5|
+|11    |FDRE   |   161|
+|12    |LD     |   513|
+|13    |IBUF   |     1|
+|14    |OBUF   |    49|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------+-------------------+------+
+|      |Instance  |Module             |Cells |
++------+----------+-------------------+------+
+|1     |top       |                   |  1111|
+|2     |  alu1    |ALU                |     8|
+|3     |  ctrl    |control_unit       |     3|
+|4     |  exemem1 |exemem             |    52|
+|5     |  idexe1  |idexe              |   101|
+|6     |  ifid1   |ifid               |    12|
+|7     |  instmem |instruction_memory |    14|
+|8     |  memwb1  |memwb              |    69|
+|9     |  mux3    |wmux               |     8|
+|10    |  reg1    |regfile            |   781|
++------+----------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:20 ; elapsed = 00:02:43 . Memory (MB): peak = 1288.820 ; gain = 1025.934
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5269 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:20 ; elapsed = 00:02:46 . Memory (MB): peak = 1288.820 ; gain = 1025.934
+Synthesis Optimization Complete : Time (s): cpu = 00:02:20 ; elapsed = 00:02:46 . Memory (MB): peak = 1288.820 ; gain = 1025.934
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 618 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1288.820 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 513 instances were transformed.
+  LD => LDCE: 513 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+195 Infos, 231 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:27 ; elapsed = 00:02:55 . Memory (MB): peak = 1288.820 ; gain = 1027.668
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1288.820 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.runs/synth_1/lab5.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file lab5_utilization_synth.rpt -pb lab5_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 26 23:14:16 2019...

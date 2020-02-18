@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Apr 26 21:15:05 2019
+# Process ID: 9612
+# Current directory: C:/Users/bixin/Desktop/CMPEN LAB 5/lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9104 C:\Users\bixin\Desktop\CMPEN LAB 5\lab5\lab5.xpr
+# Log file: C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/vivado.log
+# Journal file: C:/Users/bixin/Desktop/CMPEN LAB 5/lab5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/bixin/Desktop/CMPEN LAB 5/lab5/lab5.xpr}
+update_compile_order -fileset sources_1
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+relaunch_sim
+relaunch_sim
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source testbench.tcl
+reset_run synth_1
+launch_runs impl_1 -jobs 3
+wait_on_run impl_1
+open_run impl_1
+synth_design -rtl -name rtl_1
+close_sim
